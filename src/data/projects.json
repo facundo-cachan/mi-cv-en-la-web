@@ -1,0 +1,45 @@
+[
+  {
+    "image": "../images/projects/mi-cv-320w.png",
+    "title": "Mi CV online",
+    "description": "El proyecto que estas viendo en este momento ...",
+    "tags": ["opensource", "webdev", "frontend", "react", "tailwindcss"],
+    "website": "https://facundo-cachan.com/",
+    "github": "https://github.com/facundo-cachan/mi-cv-en-la-web"
+  },
+  {
+    "image": "../images/portfolio/alejandro-bernabe-arquitectos-320w.png",
+    "title": "Alejandro Bernabe Arquitectos",
+    "description": "Estudio de Arquitectos",
+    "tags": ["wordpress", "webdev", "html", "mysql", "seo", "css"],
+    "website": "http://alejandro-bernabe-arquitectos.org/"
+  },
+  {
+    "image": "../images/portfolio/dietetica-aquelarre-320w.png",
+    "title": "Dietetica Aquelarre",
+    "description": "Dietetica, Almacen Saludable",
+    "tags": ["webdev", "html", "jquery", "seo", "css"],
+    "website": "http://dietetica-aquelarre.com.ar/"
+  },
+  {
+    "image": "../images/portfolio/aceco-320w.png",
+    "title": "Estudios Sobre El Crimen Organizado",
+    "description": "ONG Sobre El Crimen Organizado",
+    "tags": ["webdev", "php", "wordpress", "seo", "css"],
+    "website": "http://aceco.org.ar/"
+  },
+  {
+    "image": "../images/portfolio/repliegue-320w.png",
+    "title": "Repliegue",
+    "description": "Diario sobre politica local",
+    "tags": ["webdev", "php", "wordpress", "seo", "css"],
+    "website": "http://repliegue.com.ar/"
+  },
+  {
+    "image": "../images/portfolio/el-pinar-320w.png",
+    "title": "El Pinar Del Mar",
+    "description": "Complejo turistico",
+    "tags": ["webdev", "gatsby", "seo", "css"],
+    "website": "http://elpinardelmar.com.ar/"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "no-unused-vars": [0, { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "react/display-name": [0, { "ignoreTranspilerName": false }],
+    "react/prop-types": [1]
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/recommended"
+  ]
+}

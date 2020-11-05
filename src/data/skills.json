@@ -1,0 +1,72 @@
+[
+  {
+    "icon": "../images/skills/web.png",
+    "name": "Web Design & Development",
+    "tech": "HTML/CSS/Javascript"
+  },
+  {
+    "icon": "../images/skills/nodejs.png",
+    "name": "Backend Javascript Frameworks",
+    "tech": "Node.js/Express.js/Mongoose"
+  },
+  {
+    "icon": "../images/skills/database.png",
+    "name": "Database Management System",
+    "tech": "MySQL/Postgres/MongoDB"
+  },
+  {
+    "icon": "../images/skills/react.png",
+    "name": "React",
+    "tech": "JavaScript/WebComponents/React"
+  },
+  {
+    "icon": "../images/skills/react-native.png",
+    "name": "React Native",
+    "tech": "JavaScript/WebComponents/ReactNative"
+  },
+  {
+    "icon": "../images/skills/graphql.png",
+    "name": "GraphQL",
+    "tech": "JavaScript/APIs/GraphQL"
+  },
+  {
+    "icon": "../images/skills/material-ui.png",
+    "name": "Material-UI",
+    "tech": "Material Design/React"
+  },
+  {
+    "icon": "../images/skills/styled-components.png",
+    "name": "Styled Components",
+    "tech": "Styled Components/CSS"
+  },
+  {
+    "icon": "../images/skills/sequelize.png",
+    "name": "Sequelize",
+    "tech": "Node.Js/ORM"
+  },
+  {
+    "icon": "../images/skills/socket.io.png",
+    "name": "Socket.IO",
+    "tech": "Socket.IO/RealTime"
+  },
+  {
+    "icon": "../images/skills/wordpress.png",
+    "name": "Wordpress",
+    "tech": "Wordpress/Blog/PHP"
+  },
+  {
+    "icon": "../images/skills/gatsby.png",
+    "name": "Gatsby",
+    "tech": "Gatsby/React/GraphQL"
+  },
+  {
+    "icon": "../images/skills/next-js.png",
+    "name": "NextJS",
+    "tech": "NextJs/React/PWA"
+  },
+  {
+    "icon": "../images/skills/seo.png",
+    "name": "Search Engine Optimization",
+    "tech": "PageRank/Backlinks/Google Analytics"
+  }
+]
