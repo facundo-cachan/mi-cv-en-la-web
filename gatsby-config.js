@@ -43,7 +43,7 @@ module.exports = {
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,
         display: `standalone`,
-        icon: `src/images/icon.png`,
+        icon: `./static//images/icon.png`,
         cache_busting_mode: `none`,
       },
     },
@@ -74,6 +74,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-less`,
     `gatsby-plugin-postcss`,
+    /*
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
@@ -85,15 +86,9 @@ module.exports = {
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
       },
     },
+    */
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: path.join(__dirname, `src`, `images`),
-      },
-    },
     /*
     {
       resolve: `gatsby-source-dev`,
@@ -123,15 +118,6 @@ module.exports = {
         name: `data`,
         path: path.join(__dirname, `src`, `data`),
       },
-    },
-    {
-      resolve: 'gatsby-plugin-static-folders',
-      options: {
-        folders: [
-          './images',
-          './downloads',
-        ]
-      }
     },
     {
       resolve: 'gatsby-plugin-crisp-chat',

@@ -9,7 +9,6 @@ exports.createSchemaCustomization = ({ actions }) => {
       article: Article
       featuredImg: File @link(from: "featuredImg___NODE")
     }
-
     type Article {
       url: String
       title: String

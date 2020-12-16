@@ -6,8 +6,7 @@ const SEO = () => {
   const {
     site: {
       siteMetadata: { title, description, author, siteUrl, phone, email },
-    },
-    file: { image },
+    }
   } = useStaticQuery(graphql`
     {
       site {
@@ -19,9 +18,6 @@ const SEO = () => {
           phone
           email
         }
-      }
-      file(relativePath: { eq: "share.png" }) {
-        publicURL
       }
     }
   `);
@@ -50,7 +46,7 @@ const SEO = () => {
         },
         {
           property: "og:image",
-          content: image,
+          content: "/image/icon.png",
         },
         {
           name: `twitter:card`,

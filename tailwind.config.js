@@ -30,8 +30,8 @@ module.exports = {
     enabled: process.env.NODE_ENV === 'production',
     content: [
       './src/components/**/*.js',
-      './src/pages/**/*.js',
-      './src/sections/**/*.js'
+      './src/pages/**/*.tsx',
+      './src/sections/**/*.tsx'
     ]
   },
 };
