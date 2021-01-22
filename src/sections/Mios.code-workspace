@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "MyApp",
+			"path": "../../../../GitHub/MyApp"
+		},
+		{
+			"name": "my_instruments",
+			"path": "../../../../GitHub/my_instruments"
+		},
+		{
+			"name": "rewy-gatsby",
+			"path": "../../../../../Documents/rewy-gatsby-it-startup-templates-collection/rewy-gatsby-without-strapi/rewy-gatsby"
+		},
+		{
+			"name": "globy.solutions",
+			"path": "../../../../GitHub/globy.solutions"
+		}
+	],
+	"settings": {}
+}

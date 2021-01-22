@@ -43,7 +43,7 @@ function Projects() {
               rel="noopener noreferrer"
               className="w-full h-48 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
             >
-              <Icons.FaLink className="absolute" color="#FFF" size="5rem" />
+              {/* <Icons.FaLink className="absolute" color="#FFF" size="5rem" /> */}
               <img
                 alt={node.title}
                 src={node.image}

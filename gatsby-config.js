@@ -74,7 +74,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-less`,
     `gatsby-plugin-postcss`,
-    /*
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
@@ -86,7 +85,6 @@ module.exports = {
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
       },
     },
-    */
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     /*
@@ -96,13 +94,13 @@ module.exports = {
         username: `facundocachan`,
       },
     },
+    */
     {
       resolve: `gatsby-source-instagram`,
       options: {
         username: `6206279437`,
       },
     },
-    */
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,

@@ -19,9 +19,9 @@
   },
   "scripts": {
     "clean": "gatsby clean",
-    "serve": "gatsby serve",
+    "server": "gatsby serve",
     "build": "gatsby build --verbose",
-    "start": "yarn clean && gatsby develop --verbose",
+    "start": "gatsby develop --verbose",
     "preload-fonts": "gatsby-preload-fonts",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "format-check": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -35,8 +35,6 @@
     "fix:prettier": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
     "inspect": "node --no-lazy node_modules/.bin/gatsby develop --inspect-brk",
     "fix": "yarn fix:lint && yarn fix:prettier",
-    "develop": "yarn start",
-    "dev": "yarn start",
     "docs": "jsdoc -c jsdoc.json",
     "cypress-open": "./node_modules/cypress/bin/cypress open",
     "cypress-run": "cypress run --record --key 47ef4afb-fc81-497e-971c-dae012396a73"

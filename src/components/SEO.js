@@ -74,23 +74,31 @@ const SEO = () => {
         {`
           {
             "@context": "https://schema.org",
-            "@type": "Person",
-            "url": "${siteUrl}",
-            "name": "${author}",
-            "image": "/yo.jpg",
-            "email": "mailto:${email}",
-            "jobTitle": "Desarrollador de software",
-            "telephone": "${phone}",
-            "employee":{
-              "@type": "Organization",
-              "url" : "http://globy.solutions/",
+            "@type": "JobPosting",
+            "name": "Desarrollador de Software",
+            "datePosted": "2020/01/01",
+            "title": "Ingeniero de Software",
+            "industry": "Desarrollo de Software",
+            "description": "${description}",
+            "employmentType": "Part-time",
+            "baseSalary": "1000",
+            "validThrough": "2020/01/07",
+            "jobLocation": {
+              "@type": "Place",
+              "name": "Globy Solutions",
+              "email": "dev@globy.solutions",
               "address": {
                 "@type": "PostalAddress",
-                "addressLocality": "Argentina, Buenos Aires",
-                "postalCode": "1098",
-              },
-              "email": "dev@globy.solutions",
-              "name": "Globy Solutions"
+                "streetAddress": "Chacabuco 1565",
+                "addressLocality": "Buenos Aires",
+                "addressRegion": "CABA",
+                "postalCode": "B1066"
+              }
+            },
+            "hiringOrganization": {
+              "@type": "Organization",
+              "name": "Globy Solutions",
+              "email": "dev@globy.solutions"
             }
           }
         `}

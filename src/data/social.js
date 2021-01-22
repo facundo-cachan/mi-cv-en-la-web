@@ -30,7 +30,7 @@ const social = [
   {
     title: "GitLab",
     icon: FaGitlab,
-    link: "hhttps://gitlab.riu.edu.ar/fcachan",
+    link: "https://gitlab.riu.edu.ar/fcachan",
     class: "bg-gitlab",
   },
   {
