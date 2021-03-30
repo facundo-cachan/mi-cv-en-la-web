@@ -2,7 +2,7 @@ const path = require(`path`);
 require(`dotenv`).config({ path: `.env` });
 module.exports = {
   siteMetadata: {
-    title: `Facundo Cachan, desarrollo web`,
+    title: `Facundo Cachan, desarrollo de software`,
     description: `Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my resume, on the web!`,
     author: `Facundo Cachan`,
     siteUrl: `https://facundo-cachan.com`,

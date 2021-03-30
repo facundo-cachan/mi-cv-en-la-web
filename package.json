@@ -65,6 +65,7 @@
     "gatsby-transformer-remark": "^2.8.45",
     "gatsby-transformer-sharp": "^2.5.19",
     "parallax-js": "^3.1.0",
+    "postcss-preset-env": "^6.7.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
