@@ -38,8 +38,8 @@
 |Syntax|`Yes`|
 |DOM Manipulation|`Yes`|
 |XMLHttpRequest|`Yes`|
-|ES6|`Working On It`|
-|Shadow DOM|`Working On It`|
+|ES6|`Yes`|
+|Shadow DOM|`Ever`|
 |Scope|`Yes`|
 
 |SVN - GIT|Learned|
