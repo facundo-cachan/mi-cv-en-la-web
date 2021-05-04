@@ -4,5 +4,5 @@
 ## Frontend Developer
 
 - Internet
--- HTTP
--- DNS
+> HTTP
+> DNS
